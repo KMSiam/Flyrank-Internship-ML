@@ -1,0 +1,56 @@
+{
+  "split_type": "GroupShuffleSplit(client_id, test_size=0.25)",
+  "train_rows": 22885,
+  "test_rows": 7115,
+  "test_base_rate": 0.516514406184118,
+  "results": [
+    {
+      "Method": "Naive Baseline (Random)",
+      "Type": "Random Floor",
+      "Precision@10": 0.516514406184118,
+      "Precision@20": 0.516514406184118,
+      "Precision@50": 0.516514406184118,
+      "ROC-AUC": 0.5
+    },
+    {
+      "Method": "Week-4 Baseline (Hand Rule)",
+      "Type": "Heuristic Rule",
+      "Precision@10": 0.3,
+      "Precision@20": 0.2,
+      "Precision@50": 0.3,
+      "ROC-AUC": 0.4894120392342983
+    },
+    {
+      "Method": "Decision Tree (depth=3)",
+      "Type": "Interpretable Tree",
+      "Precision@10": 0.3,
+      "Precision@20": 0.45,
+      "Precision@50": 0.46,
+      "ROC-AUC": 0.5835824632178452
+    },
+    {
+      "Method": "Logistic Regression",
+      "Type": "Linear Model",
+      "Precision@10": 0.7,
+      "Precision@20": 0.75,
+      "Precision@50": 0.68,
+      "ROC-AUC": 0.5724916943521595
+    },
+    {
+      "Method": "Random Forest",
+      "Type": "Ensemble (Bagging)",
+      "Precision@10": 0.6,
+      "Precision@20": 0.5,
+      "Precision@50": 0.58,
+      "ROC-AUC": 0.603124663819016
+    },
+    {
+      "Method": "Gradient Boosting (HistGBDT)",
+      "Type": "Ensemble (Boosting)",
+      "Precision@10": 0.9,
+      "Precision@20": 0.9,
+      "Precision@50": 0.76,
+      "ROC-AUC": 0.6016048093656067
+    }
+  ]
+}
