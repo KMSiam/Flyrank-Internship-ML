@@ -1,0 +1,10 @@
+{
+  "rows": 30000,
+  "base_rate": 0.5420666666666667,
+  "precision_at_10": 0.6,
+  "precision_at_20": 0.45,
+  "precision_at_50": 0.44,
+  "rule_formula": "(days_since_last_update >= 90) * (impressions_90d >= 500) * impressions_90d",
+  "top_score": 517715.0,
+  "items_prioritized": 6575
+}
