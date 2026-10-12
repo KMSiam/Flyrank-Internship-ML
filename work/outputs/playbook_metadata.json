@@ -1,0 +1,22 @@
+{
+  "total_catalog_size": 30000,
+  "actionable_queue_size": 18680,
+  "top_50_precision": 0.76,
+  "baseline_top_50_precision": 0.44,
+  "actions_distribution": {
+    "routine_monitoring": 11220,
+    "optimize_title_and_snippet": 5848,
+    "expand_depth_or_consolidate": 5027,
+    "targeted_refresh": 4717,
+    "comprehensive_content_refresh": 3088,
+    "protect_and_monitor": 100
+  },
+  "priorities_distribution": {
+    "P4_Deprioritized": 11220,
+    "P2_Medium": 9744,
+    "P1_High": 8936,
+    "P3_Low": 100
+  },
+  "retrain_cadence": "Quarterly or upon >15pp portfolio drift",
+  "monitoring_metric": "Rolling 30-day Precision@50 >= 65%"
+}
