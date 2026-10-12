@@ -1,0 +1,14 @@
+{
+  "validation_design": "GroupShuffleSplit(client_id, test_size=0.25)",
+  "random_split_precision_50": 0.92,
+  "random_split_auc": 0.7622661947143489,
+  "grouped_split_precision_50": 0.76,
+  "grouped_split_auc": 0.6016048093656067,
+  "split_gap_precision_50": 0.16000000000000003,
+  "banned_phrases_removed": [
+    "proves",
+    "causes",
+    "guarantees",
+    "predicts algorithm"
+  ]
+}
