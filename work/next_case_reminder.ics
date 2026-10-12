@@ -1,0 +1,21 @@
+﻿BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//KMSiam//Career Platform Case Study Reminder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261012T212400Z-case02-kmsiam@flyrank
+DTSTAMP:20261012T212400Z
+DTSTART:20261114T040000Z
+DTEND:20261114T060000Z
+SUMMARY:Ship Case Study #2: Autonomous Rover Telemetry Drift & Anomaly Triage
+DESCRIPTION:Time to ship your second case study to your portfolio platform!\n\nReuse the Week 2 three-beat shape:\n1. Problem: Operational telemetry friction & heuristic alarms failing\n2. What you did: 9 sensor features, GroupShuffleSplit by run, HistGBDT vs threshold baseline\n3. What came of it: Honest Precision@K lift, Action Playbook, no ungrounded claims.\n\nRepo: https://github.com/KMSiam/Flyrank-Internship-ML\nSite: https://kmsiam.github.io/Flyrank-Internship-ML/
+STATUS:CONFIRMED
+RRULE:FREQ=MONTHLY;INTERVAL=1
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Add Case Study #2 to your portfolio platform today
+END:VALARM
+END:VEVENT
+END:VCALENDAR
